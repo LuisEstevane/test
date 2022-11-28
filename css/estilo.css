@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h1{
+  color:#c63609;
+  text-align: center;
+  letter-spacing: 6px;
+  -webkit-text-stroke: 1px black;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+.inicio{
+  text-align: center;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(255, 0, 0, 0.20);
+}
+body{
+  background: url(../Imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header nav ul{
+  flex: auto list-style: none;
+  background: #4f0404;
+  text-align: center;
+  border-radius: 20px;
+}
+
+header nav ul li{
+  display: inline-block;
+}
+
+header nav ul li a{
+  display: block;
+  padding: 15px 50px;
+  width: auto;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: arial;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  background: black;
+  color: white;
+  transition: 0.4s all linear;
+}
+.yt{
+  text-align: center;
+  padding: 20px;
+  width: auto;
+  margin: auto;
+}
